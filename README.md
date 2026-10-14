@@ -31,7 +31,6 @@ Le laboratoire permet de pratiquer la configuration des interfaces réseau, le r
 
 PC1 — Switch 1 — Routeur Cisco 2691 — Switch 2 — PC2
 
-*Insérer ici la capture de la topologie GNS3.*
 
 ![Topologie du laboratoire](captures/01-topologie-gns3.png)
 
@@ -42,9 +41,8 @@ PC1 — Switch 1 — Routeur Cisco 2691 — Switch 2 — PC2
 | PC1 | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
 | R1 — interface LAN 1 | 192.168.10.1 | 255.255.255.0 | — |
 | R1 — interface LAN 2 | 192.168.20.1 | 255.255.255.0 | — |
-| PC2 | 192.168.20.20 | 255.255.255.0 | 192.168.20.1 |
+| PC2 | 192.168.20.10 | 255.255.255.0 | 192.168.20.1 |
 
-*Vérifier que ce tableau correspond aux adresses réellement configurées dans le laboratoire.*
 
 ## 6. Principe de fonctionnement
 
