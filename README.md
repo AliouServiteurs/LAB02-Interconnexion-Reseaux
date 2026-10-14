@@ -80,7 +80,7 @@ Les tests réalisés sont les suivants :
 
 - PC1 vers sa passerelle : 192.168.10.1.
 - PC2 vers sa passerelle : 192.168.20.1.
-- PC1 vers PC2 : 192.168.20.20.
+- PC1 vers PC2 : 192.168.20.10.
 - PC2 vers PC1 : 192.168.10.10.
 
 ![Topologie du laboratoire](captures/03-ping-passerelle-pc1.png)
