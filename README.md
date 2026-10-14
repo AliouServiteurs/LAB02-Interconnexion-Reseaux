@@ -62,7 +62,8 @@ Commande :
 
 Cette commande permet de vérifier les adresses IP et l'état des interfaces.
 
-*Insérer ici la capture du résultat.*
+![Topologie du laboratoire](captures/02-configuration-routeur-1.png)
+
 
 ### 7.2 Vérification de la table de routage
 
@@ -72,7 +73,8 @@ Commande :
 
 Les deux réseaux directement connectés doivent apparaître dans la table lorsque leurs interfaces sont opérationnelles et correctement adressées.
 
-*Insérer ici la capture du résultat.*
+![Topologie du laboratoire](captures/02-configuration-routeur-2.png)
+
 
 ### 7.3 Tests de connectivité
 
@@ -83,7 +85,12 @@ Les tests réalisés sont les suivants :
 - PC1 vers PC2 : 192.168.20.20.
 - PC2 vers PC1 : 192.168.10.10.
 
-*Insérer les captures des résultats réels des commandes ping.*
+![Topologie du laboratoire](captures/03-ping-passerelle-pc1.png)
+
+![Topologie du laboratoire](captures/04-ping-passerelle-pc2.png)
+
+![Topologie du laboratoire](captures/05-ping-inter-reseaux.png)
+
 
 ## 8. Analyse Wireshark
 
@@ -97,7 +104,7 @@ Les protocoles à examiner sont :
 
 Pour un échange entre deux sous-réseaux, les adresses IP source et destination restent normalement celles des deux postes. En revanche, les adresses MAC utilisées sur chaque liaison correspondent au prochain saut local ; elles changent donc lorsque le paquet traverse le routeur.
 
-*Insérer ici une capture Wireshark montrant les paquets ARP et ICMP.*
+![Topologie du laboratoire](captures/06-analyse-wireshark.png)
 
 ## 9. Résultats
 
